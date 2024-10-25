@@ -1,0 +1,19 @@
+{
+  "name": "el2024_10",
+  "version": "1.0.1",
+  "description": "Practice work electron 001",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nf9c/el2024_10.git"
+  },
+  "author": "nf9c",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  }
+}

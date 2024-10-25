@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Обработка данных пользователей</title>
+</head>
+<body>
+    <h1>Список пользователей</h1>
+    <button id="addUserBtn">Добавить пользователя</button>
+    
+    <table id="usersTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Имя</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="usersBody">
+        </tbody>
+    </table>
+
+    <div id="userForm" class="hidden">
+        <h2>Добавить пользователя</h2>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+
+        <button id="submitUserBtn">Сохранить</button>
+        <button id="cancelBtn">Отмена</button>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
